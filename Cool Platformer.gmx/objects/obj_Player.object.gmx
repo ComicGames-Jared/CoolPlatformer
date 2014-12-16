@@ -29,8 +29,16 @@
 grav = 0.2;
 hsp = 0;
 vsp = 0;
-jumpspeed = 7;
-movespeed = 4;
+//Modified Movespeed
+movespeed_normal = 4
+movespeed_hermes_boots = 7;
+movespeed = movespeed_normal;
+
+//Modified Jumpspeed
+jumpspeed_normal = 7;
+jumpspeed_magicpowder = 10;
+
+jumpspeed = jumpspeed_normal;
 </string>
           </argument>
         </arguments>
