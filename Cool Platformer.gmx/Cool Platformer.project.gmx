@@ -12,7 +12,11 @@
     <sprite>sprites\spr_hfloor</sprite>
     <sprite>sprites\spr_Hermes_Boots</sprite>
     <sprite>sprites\spr_Magic_Powder</sprite>
+<<<<<<< HEAD
     <sprite>sprites\spr_enemy</sprite>
+=======
+    <sprite>sprites\spr_Ares_Sword</sprite>
+>>>>>>> origin/master
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
