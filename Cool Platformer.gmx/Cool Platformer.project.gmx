@@ -12,6 +12,7 @@
     <sprite>sprites\spr_hfloor</sprite>
     <sprite>sprites\spr_Hermes_Boots</sprite>
     <sprite>sprites\spr_Magic_Powder</sprite>
+    <sprite>sprites\spr_enemy</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -24,6 +25,8 @@
     <object>objects\obj_controller</object>
     <object>objects\obj_Magic_Powder</object>
     <object>objects\obj_Hermes_Boots</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_enemy_nofall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
