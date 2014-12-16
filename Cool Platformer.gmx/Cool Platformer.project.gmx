@@ -12,6 +12,7 @@
     <sprite>sprites\spr_hfloor</sprite>
     <sprite>sprites\spr_Hermes_Boots</sprite>
     <sprite>sprites\spr_Magic_Powder</sprite>
+    <sprite>sprites\spr_Ares_Sword</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
