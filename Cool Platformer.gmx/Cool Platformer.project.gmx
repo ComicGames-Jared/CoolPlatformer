@@ -20,9 +20,6 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\scr_random_item.gml</script>
-  </scripts>
   <objects name="objects">
     <object>objects\obj_Floor</object>
     <object>objects\obj_Player</object>
@@ -31,6 +28,9 @@
     <object>objects\obj_Hermes_Boots</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy_nofall</object>
+    <object>objects\obj_Bowl_of_Hygieia</object>
+    <object>objects\obj_healthbar</object>
+    <object>objects\obj_Chest</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
