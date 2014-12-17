@@ -29,6 +29,8 @@
 grav = 0.2;
 hsp = 0;
 vsp = 0;
+jumps = 0;
+jumpsmax = 2;
 //Modified Movespeed
 movespeed_normal = 4
 movespeed_hermes_boots = 7;
@@ -73,9 +75,14 @@ if (vsp &lt; 10) vsp += grav;
 
 if (place_meeting(x,y+1,obj_Floor))
 {
-    vsp = key_jump * -jumpspeed;
+    jumps = jumpsmax;
 }
 
+if (key_jump) &amp;&amp; (jumps &gt; 0) 
+{
+    jumps -= 1;
+    vsp = -jumpspeed
+}
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_Floor))
 {
