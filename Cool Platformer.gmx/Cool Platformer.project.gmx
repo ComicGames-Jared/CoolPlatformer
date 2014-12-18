@@ -18,6 +18,8 @@
       <sprite>sprites\spr_Ares_Sword</sprite>
       <sprite>sprites\spr_Poseidons_Trident</sprite>
       <sprite>sprites\spr_Zeuss_Lightning_Bolt</sprite>
+      <sprite>sprites\spr_Basic_Sword</sprite>
+      <sprite>sprites\spr_Basic_Shield</sprite>
     </sprites>
     <sprites name="grp_Static">
       <sprite>sprites\spr_Floor</sprite>
