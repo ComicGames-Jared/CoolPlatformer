@@ -50,7 +50,8 @@ if keyboard_check_pressed(vk_escape) game_end();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(8,8,"FPS: " + string(fps));
+            <string>draw_set_color(c_green);
+draw_text(8,8,"FPS: " + string(fps));
 </string>
           </argument>
         </arguments>

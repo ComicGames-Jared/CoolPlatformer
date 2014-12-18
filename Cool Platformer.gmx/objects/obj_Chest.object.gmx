@@ -54,29 +54,7 @@ if image_index == 3 {
 instance_create(x,y + -25,choose(obj_Hermes_Boots,obj_Magic_Powder));
 image_speed = 0; image_index = 4; 
 }
-//check if player has magic powder
-with (obj_Player){
-if (global.jumpspeed == global.jumpspeed_magicpowder)
-{
-    global.magicpodwercheck = true
-}
-}
-if global.magicpowdercheck = true
-{
-instance_create(x,y + -25,choose(obj_Hermes_Boots));
-    exit;
-}
-with (obj_Player){
-if (global.movespeed == global.movespeed_hermes_boots)
-{
-    global.hermesbootscheck = true
-}
-}
-if global.hermesbootscheck = true
-{
-instance_create(x,y + -25,choose(obj_Magic_Powder));
-    exit;
-}
+
 </string>
           </argument>
         </arguments>
