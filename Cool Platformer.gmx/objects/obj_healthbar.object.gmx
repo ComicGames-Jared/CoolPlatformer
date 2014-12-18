@@ -49,7 +49,7 @@ y = obj_Player.y + 15
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_healthbar(-20,-20,20,-30,100,c_gray,c_maroon,c_green,obj_Player,true,true)
+            <string>draw_healthbar(-20,-20,20,-30,global.health,c_gray,c_maroon,c_green,obj_Player,true,true)
 </string>
           </argument>
         </arguments>

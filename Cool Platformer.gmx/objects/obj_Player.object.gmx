@@ -26,21 +26,24 @@
           <argument>
             <kind>1</kind>
             <string>/// Initialize Variables
+global.health = 100;
+global.magicpowdercheck = false
+global.hermesbootscheck = false
 grav = 0.2;
 hsp = 0;
 vsp = 0;
 jumps = 0;
 jumpsmax = 2;
 //Modified Movespeed
-movespeed_normal = 4
-movespeed_hermes_boots = 7;
-movespeed = movespeed_normal;
+global.movespeed_normal = 4
+global.movespeed_hermes_boots = 7;
+global.movespeed = global.movespeed_normal;
 
 //Modified Jumpspeed
-jumpspeed_normal = 7;
-jumpspeed_magicpowder = 10;
+global.jumpspeed_normal = 7;
+global.jumpspeed_magicpowder = 10;
 
-jumpspeed = jumpspeed_normal;
+global.jumpspeed = global.jumpspeed_normal;
 </string>
           </argument>
         </arguments>
@@ -70,7 +73,7 @@ key_jump = keyboard_check_pressed(ord("W"));
 
 //Reacting to Inputs
 move = key_left + key_right;
-hsp = move * movespeed
+hsp = move * global.movespeed
 if (vsp &lt; 10) vsp += grav;
 
 if (place_meeting(x,y+1,obj_Floor))
@@ -81,12 +84,12 @@ if (place_meeting(x,y+1,obj_Floor))
 if (key_jump) &amp;&amp; (jumps &gt; 0) 
 {
     jumps -= 1;
-    vsp = -jumpspeed
+    vsp = -global.jumpspeed
 }
 
 if (key_jump) &amp;&amp; (place_meeting(x+1,y,obj_Floor) || place_meeting(x-1,y,obj_Floor))
 {
-    vsp = -jumpspeed
+    vsp = -global.jumpspeed
     jumps = jumpsmax
 }
 
