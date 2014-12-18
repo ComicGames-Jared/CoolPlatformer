@@ -50,10 +50,9 @@ image_speed = 0;
           <argument>
             <kind>1</kind>
             <string>if image_index = 3 {
-instance_create(obj_Chest.x, obj_Chest.y + -25,choose(obj_Hermes_Boots,obj_Magic_Powder));
+instance_create(x,y + -25,choose(obj_Hermes_Boots,obj_Magic_Powder));
 image_speed = 0; image_index = 4; 
 }
-
 </string>
           </argument>
         </arguments>

@@ -6,33 +6,44 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_Floor</sprite>
-    <sprite>sprites\spr_Player</sprite>
-    <sprite>sprites\spr_Chest</sprite>
-    <sprite>sprites\spr_hfloor</sprite>
-    <sprite>sprites\spr_Hermes_Boots</sprite>
-    <sprite>sprites\spr_Magic_Powder</sprite>
-    <sprite>sprites\spr_enemy</sprite>
-    <sprite>sprites\spr_Ares_Sword</sprite>
-    <sprite>sprites\spr_Bowl_of_Hygieia</sprite>
-    <sprite>sprites\spr_Zeuss_Lightning_Bolt</sprite>
-    <sprite>sprites\spr_Poseidons_Trident</sprite>
+    <sprites name="grp_Dynamic">
+      <sprite>sprites\spr_Player</sprite>
+      <sprite>sprites\spr_enemy</sprite>
+    </sprites>
+    <sprites name="grp_Items">
+      <sprite>sprites\spr_Chest</sprite>
+      <sprite>sprites\spr_Magic_Powder</sprite>
+      <sprite>sprites\spr_Hermes_Boots</sprite>
+      <sprite>sprites\spr_Bowl_of_Hygieia</sprite>
+      <sprite>sprites\spr_Ares_Sword</sprite>
+      <sprite>sprites\spr_Poseidons_Trident</sprite>
+      <sprite>sprites\spr_Zeuss_Lightning_Bolt</sprite>
+    </sprites>
+    <sprites name="grp_Static">
+      <sprite>sprites\spr_Floor</sprite>
+      <sprite>sprites\spr_hfloor</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <objects name="grp_Dynamic">
+      <object>objects\obj_Player</object>
+      <object>objects\obj_enemy</object>
+      <object>objects\obj_enemy_nofall</object>
+    </objects>
+    <objects name="grp_Items">
+      <object>objects\obj_Chest</object>
+      <object>objects\obj_Magic_Powder</object>
+      <object>objects\obj_Hermes_Boots</object>
+      <object>objects\obj_Bowl_of_Hygieia</object>
+    </objects>
     <object>objects\obj_Floor</object>
-    <object>objects\obj_Player</object>
-    <object>objects\obj_controller</object>
-    <object>objects\obj_Magic_Powder</object>
-    <object>objects\obj_Hermes_Boots</object>
-    <object>objects\obj_enemy</object>
-    <object>objects\obj_enemy_nofall</object>
-    <object>objects\obj_Bowl_of_Hygieia</object>
     <object>objects\obj_healthbar</object>
-    <object>objects\obj_Chest</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room1</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
