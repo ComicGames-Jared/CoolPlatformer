@@ -22,6 +22,16 @@
       <sprite>sprites\spr_Basic_Shield</sprite>
       <sprite>sprites\spr_Hook</sprite>
       <sprite>sprites\spr_Knife</sprite>
+      <sprite>sprites\spr_adrenaline</sprite>
+      <sprite>sprites\spr_TTPW</sprite>
+      <sprite>sprites\spr_Pure_Acid</sprite>
+      <sprite>sprites\spr_MEDZ</sprite>
+      <sprite>sprites\spr_Dads_Drink</sprite>
+      <sprite>sprites\spr_Crystal_Ball</sprite>
+      <sprite>sprites\spr_Rocks</sprite>
+      <sprite>sprites\spr_Sheath</sprite>
+      <sprite>sprites\spr_Branch</sprite>
+      <sprite>sprites\spr_Magic_Machine</sprite>
     </sprites>
     <sprites name="grp_Static">
       <sprite>sprites\spr_Floor</sprite>
@@ -42,6 +52,16 @@
       <object>objects\obj_Magic_Powder</object>
       <object>objects\obj_Hermes_Boots</object>
       <object>objects\obj_Bowl_of_Hygieia</object>
+      <object>objects\obj_Adrenaline</object>
+      <object>objects\obj_TTPW</object>
+      <object>objects\obj_Pure_Acid</object>
+      <object>objects\obj_MEDZ</object>
+      <object>objects\obj_Dads_Drink</object>
+      <object>objects\obj_Crystal_Ball</object>
+      <object>objects\obj_Rocks</object>
+      <object>objects\obj_Sheath</object>
+      <object>objects\obj_Branch</object>
+      <object>objects\obj_Magic_Machine</object>
     </objects>
     <object>objects\obj_Floor</object>
     <object>objects\obj_healthbar</object>
