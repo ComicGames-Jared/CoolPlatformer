@@ -43,6 +43,9 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_camera_movement.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="grp_Dynamic">
       <object>objects\obj_Player</object>
@@ -50,7 +53,6 @@
       <object>objects\obj_enemy_nofall</object>
     </objects>
     <objects name="grp_Items">
-      <object>objects\obj_Chest</object>
       <object>objects\obj_Magic_Powder</object>
       <object>objects\obj_Hermes_Boots</object>
       <object>objects\obj_Bowl_of_Hygieia</object>
@@ -66,6 +68,7 @@
       <object>objects\obj_Magic_Machine</object>
     </objects>
     <object>objects\obj_Floor</object>
+    <object>objects\obj_Chest</object>
     <object>objects\obj_healthbar</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_Door</object>

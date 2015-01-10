@@ -44,6 +44,7 @@ global.jumpspeed_normal = 7;
 global.jumpspeed_magicpowder = 10;
 
 global.jumpspeed = global.jumpspeed_normal;
+
 </string>
           </argument>
         </arguments>
@@ -114,6 +115,8 @@ if (place_meeting(x,y+vsp,obj_Floor))
     vsp = 0;
 }
 y += vsp;
+
+scr_camera_movement();
 </string>
           </argument>
         </arguments>

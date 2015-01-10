@@ -51,7 +51,7 @@ image_speed = 0;
             <kind>1</kind>
             <string>
 if image_index == 3 {
-instance_create(x,y + -25,choose(obj_Hermes_Boots,obj_Magic_Powder));
+instance_create(x,y + -25,choose(obj_Hermes_Boots,obj_Magic_Powder,obj_Bowl_of_Hygieia,obj_Adrenaline,obj_TTPW,obj_Pure_Acid,obj_MEDZ,obj_Dads_Drink,obj_Crystal_Ball,obj_Rocks,obj_Sheath,obj_Branch,obj_Magic_Machine));
 image_speed = 0; image_index = 4; 
 }
 
