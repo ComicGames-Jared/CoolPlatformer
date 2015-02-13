@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>with (obj_Player)
 {
+global.acid = true;
 }
 
 instance_destroy();

@@ -99,7 +99,7 @@ if (place_meeting(x,y,obj_Player))
     else
     {
     //Add something here if player walks into enemy ex: death animation for now it restarts game
-    game_restart();
+    //game_restart();
     }
 }
 </string>

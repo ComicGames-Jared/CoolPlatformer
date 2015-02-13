@@ -45,6 +45,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_camera_movement.gml</script>
+    <script>scripts\scr_particle.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="grp_Dynamic">
